@@ -53,25 +53,27 @@ Returns the current voting percentages for “yes” and “no” votes on a cam
 
 
 # Clone the repository
+`
 git clone <https://github.com/Harisuthan-code/PushDO---Project>
 cd PushDO---Project
+`
 
 # Install OpenZeppelin Contracts
-forge install OpenZeppelin/openzeppelin-contracts
+`forge install OpenZeppelin/openzeppelin-contracts`
 
 
 # Compile contracts
 
-forge build
+`forge build`
 
 
 # Run tests
 
-forge test
+`forge test`
 
 # Deploy contracts
 
-forge create --rpc-url <RPC_URL> --private-key <PRIVATE_KEY> src/PushDAO.sol:PushDAO
+`forge create --rpc-url <RPC_URL> --private-key <PRIVATE_KEY> src/PushDAO.sol:PushDAO`
 
 
 
